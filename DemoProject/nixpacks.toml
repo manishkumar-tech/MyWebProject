@@ -3,8 +3,7 @@ nixPkgs = ['openjdk17']
 
 [phases.build]
 cmds = [
-  "mkdir -p app/lib",  
-  "cp -r *.class app/",      
+  "mkdir -p app/lib",       
 ]
 
 [start]
